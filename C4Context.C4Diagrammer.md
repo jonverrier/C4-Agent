@@ -1,11 +1,11 @@
 ```mermaid
 C4Context
-title C4Diagrammer System Context
+title C4-Agent System Context
 
-Person(developer, "Developer", "Software developer using C4Diagrammer")
+Person(developer, "Developer", "Software developer using C4-Agent")
 
-System_Boundary(c4diagrammer, "C4Diagrammer") {
-    System(core, "Core System", "Main C4Diagrammer functionality for documentation generation")
+System_Boundary(c4agent, "C4-Agent") {
+    System(core, "Core System", "Main C4-Agent functionality for documentation generation")
     System(mermaid, "Mermaid Processing", "Handles diagram parsing and preview")
     System(file_handler, "File Handler", "Manages file operations and documentation")
 }

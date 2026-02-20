@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A Model Context Protocol server that generates C4 diagrams for source code",
   "private": true,
+  "repository": {"type": "git", "url": "git+https://github.com/jonverrier/C4-Agent.git"},
   "type": "module",
   "bin": {
     "c4_diagrammer": "./dist/src/index.js"
