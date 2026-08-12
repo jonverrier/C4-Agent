@@ -9,7 +9,8 @@ const tsJestEsm = {
       'ts-jest',
       {
          useESM: true,
-         tsconfig: '<rootDir>/tsconfig.jest.json'
+         tsconfig: '<rootDir>/tsconfig.jest.json',
+         diagnostics: { ignoreCodes: [151002] }
       }
    ]
 };
